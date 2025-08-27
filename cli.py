@@ -96,7 +96,7 @@ def main():
         elif choice == "4":
             list_genres()
         elif choice == "0":
-            print("Goodbye!")
+            print("See you on the next one!")
             break
         else:
             print("Invalid choice, try again.")
