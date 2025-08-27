@@ -2,7 +2,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-# SQLite database file (can be changed to PostgreSQL/MySQL later)
+# SQLite database file 
 DATABASE_URL = "sqlite:///watchlist.db"
 
 # Create engine

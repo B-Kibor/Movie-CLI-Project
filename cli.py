@@ -8,7 +8,7 @@ def add_movie():
         title = input("Enter movie title: ")
         genre_name = input("Enter genre: ")
 
-        # Check if genre exists, otherwise create
+        # Check if genre exists
         genre = session.query(Genre).filter_by(name=genre_name).first()
         if not genre:
             genre = Genre(name=genre_name)
