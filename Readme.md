@@ -30,6 +30,28 @@ The application uses **SQLAlchemy ORM** with 4 related tables:
 2. Install dependencies with Pipenv
 3. Initialize the database
 
+
+## Usage
+
+Run the CLI:
+```
+python cli.py
+```
+
+Menu options:
+- 1: Add movie
+- 2: List movies
+- 3: Delete movie
+- 4: List genres
+- 5: Add user
+- 6: List users
+- 7: Delete user
+- 8: Add review
+- 9: List reviews
+- 0: Exit
+
+---
+
  ## Learning Goals Demonstrated
 
 Python fundamentals → CLI logic, user input/output
@@ -48,4 +70,4 @@ Beatrice Kisabit
 
 ## License
 
-This project is under the MIT License
+MIT License
