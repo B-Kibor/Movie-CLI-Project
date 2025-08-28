@@ -5,12 +5,22 @@ Built with **Python** and **SQLAlchemy ORM**, this project demonstrates concepts
 
 ---
 
-##  Features
-- Manage **Users**
-- Add, list, and delete **Movies**
-- Add and view **Reviews**
-- List **Genres**
-- Relational database with **Users → Reviews → Movies → Genres**
+## Features
+- User management (create, list, delete users)
+- Reviews linked to users
+- SQLite database with Alembic migrations
+- Clean tabular CLI output with [tabulate]
+- Input validation and beginner-friendly design
+
+---
+
+## Requirements
+- Python 3.12+
+- Virtual environment (recommended)
+- Dependencies:
+  - SQLAlchemy
+  - Alembic
+  - Tabulate
 
 ---
 
