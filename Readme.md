@@ -24,12 +24,21 @@ The application uses **SQLAlchemy ORM** with 4 related tables:
 
 ---
 
-##  Installation & Setup
+## Installation & Setup
 
-1. Clone the repository
-2. Install dependencies with Pipenv
-3. Initialize the database
-
+1. Clone the repository:
+   ```
+   git clone <your-repo-url>
+   cd Project
+   ```
+2. Install dependencies:
+   ```
+   pipenv install
+   ```
+3. Initialize the database:
+   ```
+   python cli.py
+   ```
 
 ## Usage
 
